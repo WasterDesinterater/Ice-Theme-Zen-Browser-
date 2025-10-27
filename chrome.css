@@ -120,11 +120,6 @@
   }
 }
 
-
-/*Experimental design chooses added to the theme to make it my own*/
-#appMenu-popup panelmultiview:is(html) {
-  background:blue !important;
-  }
 /*This is the background of the entire application menu, as well as the form object*/
 #appMenu-popup #appMenu-multiView {
   background-color: color-mix(in hsl, hsl(0 0 10), transparent 40%) !important;
