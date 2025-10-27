@@ -2,6 +2,6 @@
 function appMenu(){
     let appDropdown=document.getElementById("appMenu-popup");
     let appShadow=appDropdown.shadowRoot.children;
-    appShadow[0].setAttribute("style", "background:transparent !important; border:none !important; border-radius:20px"); 
+    appShadow[0].setAttribute("style", "background:transparent !important; border:none !important; border-radius:20px !important"); 
 }
 document.getElementById("appMenu-popup").addEventListener("popupshowing",appMenu)
